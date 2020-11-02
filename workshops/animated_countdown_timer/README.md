@@ -77,6 +77,13 @@ document.getElementById("app").innerHTML = `
 </div>
 `;
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+</p>
+</details>
 
 Now that we have some markup to work with, let’s style it up a bit so we have a good visual to start with. Specifically, we’re going to:
 
