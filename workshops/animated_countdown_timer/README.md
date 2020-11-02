@@ -8,7 +8,7 @@ Have you ever needed a countdown timer on a project? For something like that, it
 
 Here's what we’re aiming for:
 
-[![Picture of the final product](https://cloud-71zcrxnav.vercel.app/0ezgif.com-video-to-gif.gif)]
+![Picture of the final product](https://cloud-71zcrxnav.vercel.app/0ezgif.com-video-to-gif.gif)
 
 Here's the [live demo](https://animated-countdown-timer.jacktdc.repl.co/).  
 Here's the [source code](https://repl.it/@JackTDC/Animated-Countdown-Timer#script.js).
