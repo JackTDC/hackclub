@@ -80,7 +80,8 @@ document.getElementById("app").innerHTML = `
 <details><summary>CLICK ME FOR EXPLANATION</summary>
 <p>
 
-yes, even hidden code blocks!
+This is normally supose to be in the HTML file but for this workshop I am going to write it in JavaScript.
+This code basically creates a template for our timer.We do this by adding a SVG with a `circle` element.
 
 </p>
 </details>
@@ -114,7 +115,8 @@ Now that we have some markup to work with, let’s style it up a bit so we have 
 <details><summary>CLICK ME FOR EXPLANATION</summary>
 <p>
 
-yes, even hidden code blocks!
+This code gives a style to the `circle` element.
+Note how we hollowed out the circle so we can display the time remaining in the center of the circle.
 
 </p>
 </details>
