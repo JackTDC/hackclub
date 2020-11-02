@@ -111,7 +111,7 @@ Having that done we end up with a basic template that looks like this.
 
 ### Step 3: Setting up the time label
 
-As you probably noticed, the template includes an empty <span> that’s going to hold the time remaining. We will fill that place with a proper value. We said earlier that the time will be in `MM:SS` format. To do that we will create a method called formatTimeLeft:
+As you probably noticed, the template includes an empty `<span>` that’s going to hold the time remaining. We will fill that place with a proper value. We said earlier that the time will be in `MM:SS` format. To do that we will create a function called formatTimeLeft:
 
 ```js
 function formatTimeLeft(time) {
@@ -504,13 +504,13 @@ Here are some things which you can do:
 
 **Some more examples for you**
 
-- [Example 1](https://codepen.io/JackTDC/pen/BazxYXY)
+- [Different animation](https://codepen.io/JackTDC/pen/BazxYXY)
 
-- [Example 2](https://codepen.io/JackTDC/pen/Bazxrar)
+- [Added days,hours,micro seconds, and background image](https://codepen.io/JackTDC/pen/Bazxrar)
 
-- [Example 3](https://codepen.io/JackTDC/pen/bGeMvNK)
+- [Movie Starting animation](https://codepen.io/JackTDC/pen/bGeMvNK)
 
-- [Example 4](https://codepen.io/JackTDC/pen/YzWLayV) 
+- [Arcade Animation](https://codepen.io/JackTDC/pen/YzWLayV) 
 
 Now that you have finished building this wonderful project, you should share your beautiful creation with other people! Remember, it's as easy as giving them your URL!
 
