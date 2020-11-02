@@ -77,10 +77,10 @@ document.getElementById("app").innerHTML = `
 </div>
 `;
 ```
-<details><summary>CLICK ME FOR EXPLANATION</summary>
+<details><summary>**CLICK ME FOR EXPLANATION**</summary>
 <p>
 
-#### yes, even hidden code blocks!
+yes, even hidden code blocks!
 
 </p>
 </details>
