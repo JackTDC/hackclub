@@ -77,7 +77,7 @@ document.getElementById("app").innerHTML = `
 </div>
 `;
 ```
-<details><summary>**CLICK ME FOR EXPLANATION**</summary>
+<details><summary>CLICK ME FOR EXPLANATION</summary>
 <p>
 
 yes, even hidden code blocks!
@@ -111,6 +111,14 @@ Now that we have some markup to work with, let’s style it up a bit so we have 
   stroke: grey;
 }
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
+
 
 Having that done we end up with a basic template that looks like this.
 
@@ -137,6 +145,14 @@ function formatTimeLeft(time) {
   return `${minutes}:${seconds}`;
 }
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
+
 
 Then we will use our method in the template:
 
@@ -154,6 +170,13 @@ document.getElementById("app").innerHTML = `
 </div>
 `
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
 
 To show the value inside the ring we need to update our styles a bit.
 
@@ -177,6 +200,14 @@ To show the value inside the ring we need to update our styles a bit.
   font-size: 48px;
 }
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
+
 
 OK, we are ready to play with the `timeLeft`  value, but the value doesn’t exist yet. Let’s create it and set the initial value to our time limit.
 
@@ -189,6 +220,14 @@ const TIME_LIMIT = 20;
 let timePassed = 0;
 let timeLeft = TIME_LIMIT
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
+
 
 And we are one step closer.
 
@@ -230,6 +269,14 @@ function startTimer() {
   }, 1000);
 }
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
+
 
 We have a method that starts the timer but we do not call it anywhere. Let’s start our timer immediately on load.
 
@@ -237,6 +284,13 @@ We have a method that starts the timer but we do not call it anywhere. Let’s s
 document.getElementById("app").innerHTML = `...`
 startTimer();
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
 
 That’s it! Our timer will now count down the time. While that’s great and all, it would be nicer if we could add some color to the ring around the time label and change the color at different time values.
 
@@ -275,6 +329,14 @@ document.getElementById("app").innerHTML = `
 </div>
 `;
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
+
 
 Next, let’s create an initial color for the remaining time path.
 
@@ -287,6 +349,14 @@ const COLOR_CODES = {
 
 let remainingPathColor = COLOR_CODES.info.color;
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
+
 
 Finally, let’s add few styles to make the circular path look like our original gray ring. The important thing here is to make sure the [`stroke-width`][Stoke] is the same size as the original ring and that the duration of the [`transition`][Transition] is set to one second so that it animates smoothly and corresponds with the time remaining in the time label.
 
@@ -317,6 +387,14 @@ Finally, let’s add few styles to make the circular path look like our original
   transform: scaleX(-1);
 }
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
+
 
 This will output a stroke that covers the timer ring like it should, but it doesn’t animate just yet to reveal the timer ring as time passes.
 
@@ -376,6 +454,14 @@ function setCircleDasharray() {
     .setAttribute("stroke-dasharray", circleDasharray);
 }
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
+
 
 We also need to update our path each second that passes. That means we need to call the newly created `setCircleDasharray` method inside our `timerInterval`.
 
@@ -390,6 +476,14 @@ function startTimer() {
   }, 1000);
 }
 ```
+
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
 
 Now we can see things moving!
 
@@ -407,6 +501,14 @@ function calculateTimeFraction() {
   return rawTimeFraction - (1 / TIME_LIMIT) * (1 - rawTimeFraction);
 }
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
+
 
 There we go!
 
@@ -438,6 +540,14 @@ const COLOR_CODES = {
   }
 };
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
+
 
 Now, let’s create a method that’s responsible for checking if the threshold exceeded and changing the progress color when that happens.
 
@@ -465,6 +575,14 @@ function setRemainingPathColor(timeLeft) {
   }
 }
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
+
 
 So, we’re removing one CSS class when the timer reaches a point and adding another one in its place. We’re going to need to define those classes.
 
@@ -481,6 +599,13 @@ So, we’re removing one CSS class when the timer reaches a point and adding ano
   color: red;
 }
 ```
+<details><summary>CLICK ME FOR EXPLANATION</summary>
+<p>
+
+yes, even hidden code blocks!
+
+</p>
+</details>
 
 
 **_And with this, we finish our project! Check out what you've just built!_**
