@@ -82,7 +82,7 @@ document.getElementById("app").innerHTML = `
 
 This is normally supose to be in the HTML file but for this workshop I am going to write it in JavaScript.
 This code basically creates a template for our timer.We do this by adding a SVG with a `circle` element.
-
+_________________________________________________________________________________________________________________________________________________________________
 </p>
 </details>
 
