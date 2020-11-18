@@ -624,7 +624,7 @@ If you still face difficulties in signing up watch [this](https://www.youtube.co
 
 Here are some things which you can do:
 
-1. Try adding a Pause button.
+1. Try adding a pause button.
 
 2. Try adding a reset button.
 
@@ -634,7 +634,7 @@ Here are some things which you can do:
 
 5. Try adding hours and days to the timer 
 
-6. Try to think of more unique ideas on how you can enhance this project.
+6. [Try adding a start button.](https://repl.it/@JackTDC/Animated-Countdown-Timer-2#index.html)
 
 **Some more examples for you**
 
