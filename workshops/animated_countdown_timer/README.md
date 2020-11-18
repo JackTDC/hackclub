@@ -628,7 +628,7 @@ Here are some things which you can do:
 
 2. Try adding a reset button.
 
-3. Try to make it so the user can input the time to countdown.
+3. [Try to make it so the user can input the time to countdown.](https://repl.it/@JackTDC/Animated-Countdown-Timer-1#script.js)
 
 4. Try to add a sound when the countdown is done.
 
